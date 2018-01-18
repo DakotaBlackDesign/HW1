@@ -1,0 +1,17 @@
+Down
+Down 
+Down 
+Down
+Right
+Var Color = GetColor
+Down
+SetColor(Color)
+Right
+Right
+Right
+Up
+Color = GetColor
+Down
+SetColor(color)
+Right
+Right
