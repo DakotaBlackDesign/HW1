@@ -1,0 +1,25 @@
+Right
+Var Color1 = GetColor
+If (Color1 = "red") {
+	Up
+   	Up
+  	Up
+   	}
+Else {
+  	Down
+  	Down
+  	Down
+  	}
+Var Color2 = GetColor
+If (Color2 = "red"){
+  	Left
+  	}
+Else {
+  	Right
+  	}
+If (Color1 = "red"){
+  	Up
+	}
+Else {
+  	Down
+	}
