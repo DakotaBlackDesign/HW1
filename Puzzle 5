@@ -1,0 +1,15 @@
+Function Step {
+	Right
+	Right
+	If (GetColor = "blue") {
+		Down
+		}
+	Else {
+   		 Up
+    		} 
+Step
+Step
+Step
+Right
+Right
+Right
