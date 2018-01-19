@@ -1,0 +1,19 @@
+Function Step(direction,n)
+	Var Count = 0
+	While(count < n){
+		direction
+		count = count + 1
+		}
+Function MetaStep{		
+	Step(Down,7)
+	Step(Right,2)
+	Step(Up,7)
+	Step(Right,2)
+	}
+
+
+Down
+MetaStep
+MetaStep
+Step(Down,7)
+Right
