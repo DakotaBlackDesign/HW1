@@ -1,0 +1,11 @@
+Function Paint(direction,n)
+	Var Count = 0
+	While(count < n){
+		SetColor("Black")
+		direction
+		count = count + 1
+		}
+Paint(Right,9)
+Paint(Down,9)
+Paint(Left,9)
+Paint(Up,8)
