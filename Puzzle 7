@@ -1,0 +1,11 @@
+Function Step(direction){ 
+	If (GetColor != "red") {
+		direction
+	Else{
+		Right
+		Right
+Step(Down)
+Step(Up)
+Step(Down)
+Step(Up)
+Step(Down)
