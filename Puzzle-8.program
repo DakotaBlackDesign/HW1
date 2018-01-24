@@ -1,19 +1,20 @@
-Function Step(direction,n)
-	Var Count = 0
-	While(Count < n){
-		direction
+function Step(direction,n){
+	var Count = 0
+	while(Count < n){
+		direction();
 		Count = Count + 1
 		}
-Function MetaStep{		
-	Step(Down,7)
-	Step(Right,2)
-	Step(Up,7)
-	Step(Right,2)
+	}
+function MetaStep(){		
+	Step(down,7);
+	Step(right,2);
+	Step(up,7);
+	Step(right,2);
 	}
 
 
-Down
-MetaStep
-MetaStep
-Step(Down,7)
-Right
+down();
+MetaStep();
+MetaStep();
+Step(down,7);
+right();
