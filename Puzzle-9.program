@@ -1,6 +1,6 @@
 Function Paint(direction,n)
 	Var Count = 0
-	While(count < n){
+	While (count < n){
 		SetColor("Black")
 		direction
 		count = count + 1
