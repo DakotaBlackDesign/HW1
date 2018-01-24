@@ -1,12 +1,12 @@
-Down 
-Down 
-Var Color = getColor
-Down 
-Down 
-Down
-Right 
-Right
-setColor(Color)
-Right
-Right
-Up
+down(); 
+down(); 
+var Color = getColor();
+down(); 
+down(); 
+down();
+right(); 
+right();
+setColor(Color);
+right();
+right();
+up();
