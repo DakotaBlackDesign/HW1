@@ -1,5 +1,5 @@
 Right
-Var Color1 = GetColor
+Var Color1 = getColor
 If (Color1 = "red") {
 	Up
    	Up
@@ -10,7 +10,7 @@ Else {
   	Down
   	Down
   	}
-Var Color2 = GetColor
+Var Color2 = getColor
 If (Color2 = "red"){
   	Left
   	}
