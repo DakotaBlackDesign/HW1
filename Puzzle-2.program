@@ -1,5 +1,5 @@
 Var count = 0
-While (count != 6) {
+While (count < 6) {
 	Down
 	count + 1
 	}
