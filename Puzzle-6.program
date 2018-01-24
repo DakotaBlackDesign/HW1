@@ -1,25 +1,26 @@
-Right
-Var Color1 = getColor
-If (Color1 = "red") {
-	Up
-   	Up
-  	Up
+
+right();
+var Color1 = getColor();
+if (Color1 == "red") {
+	up();
+   	up();
+  	up();
    	}
-Else {
-  	Down
-  	Down
-  	Down
+else {
+  	down();
+  	down();
+  	down();
   	}
-Var Color2 = getColor
-If (Color2 = "red"){
-  	Left
+var Color2 = getColor();
+if (Color2 == "red"){
+  	left();
   	}
-Else {
-  	Right
+else {
+  	right();
   	}
-If (Color1 = "red"){
-  	Up
+if (Color1 == "red"){
+  	up();
 	}
-Else {
-  	Down
+else {
+  	down();
 	}
