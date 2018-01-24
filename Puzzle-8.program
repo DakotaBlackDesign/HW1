@@ -1,8 +1,8 @@
 Function Step(direction,n)
 	Var Count = 0
-	While(count < n){
+	While(Count < n){
 		direction
-		count = count + 1
+		Count = Count + 1
 		}
 Function MetaStep{		
 	Step(Down,7)
