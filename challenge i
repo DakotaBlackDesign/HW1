@@ -1,0 +1,63 @@
+// Help Rudy the Red Dot collect all the green dots!
+
+// Control Rudy with the following commands:
+//  up();                   -- moves Rudy up one square
+//  down();                 -- ...down one square
+//  left();                 -- ...left one square
+//  right();                -- ...right one square
+
+// Interact with Rudy's environment using the following commands:
+//  remainingDots();        -- returns the number of green dots remaining
+//  getColor();             -- returns the color of Rudy's square
+//  setColor(color);        -- changes the color of Rudy's square, opens gates if colors match
+function GoTo(x,y){
+  var Count = 0
+	if (x > 0){
+		while (Count < x){
+			right();
+			Count = Count + 1;
+    }
+  }
+	else {
+  	while (Count < -x){
+			left();
+			Count = Count + 1;
+		}
+  }
+  Count = 0
+  if (y > 0){
+		while (Count < y){
+			down();
+			Count = Count + 1;
+		}
+  }
+  else{
+  	while (Count < -y){
+			up();
+			Count = Count + 1;
+		}
+	}
+}
+function Paint(direction,n){
+	var Count = 0
+	while (Count < n){
+		setColor("blue");
+		direction();
+		Count = Count + 1
+		}
+	}
+
+function Rect(x,y,width,height){
+  GoTo(x,y);
+  Paint(right,width);
+  Paint(down,height);
+  Paint(left,width);
+  Paint(up,height);
+  GoTo(-x,-y);
+  }
+
+Rect(10,10,10,10)
+Rect(10,10,20,20)
+Rect(15,15,20,20)
+Rect(5,5,30,30)
+Rect(10,10,25,25)
