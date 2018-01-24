@@ -1,15 +1,15 @@
-Var count = 0
-While (count < 6) {
-	Down
-	count + 1
+var count = 0
+while (count < 6) {
+	down();
+	count = count + 1
 	}
-Right
-Right 
-Right
-Up
-Up
-Right
-Right
-Down
-Down
-Down
+right();
+right(); 
+right();
+up();
+up();
+right();
+right();
+down();
+down();
+down();
