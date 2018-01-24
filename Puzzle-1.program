@@ -1,14 +1,14 @@
-Var count = 0 
-While (count < 7) {
-	Down
-	count + 1
+var count = 0 
+while (count < 7) {
+	down();
+	count = count + 1
 	}
-Right 
-Right
-Right
-Right
-Right 
-Up
-Up
-Left 
-Left
+right();
+right();
+right();
+right();
+right ();
+up();
+up();
+right(); 
+right();
