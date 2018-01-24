@@ -1,5 +1,5 @@
 Function Step(direction){ 
-	If (GetColor != "red") {
+	If (getColor != "red") {
 		direction
 	Else{
 		Right
