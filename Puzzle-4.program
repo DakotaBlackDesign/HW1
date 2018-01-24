@@ -5,13 +5,13 @@ Down
 Right
 Var Color = getColor
 Down
-setColor(Color)
+setColor (Color)
 Right
 Right
 Right
 Up
 Color = getColor
 Down
-setColor(color)
+setColor (Color)
 Right
 Right
