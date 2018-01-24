@@ -3,15 +3,15 @@ Down
 Down 
 Down
 Right
-Var Color = GetColor
+Var Color = getColor
 Down
-SetColor(Color)
+setColor(Color)
 Right
 Right
 Right
 Up
-Color = GetColor
+Color = getColor
 Down
-SetColor(color)
+setColor(color)
 Right
 Right
