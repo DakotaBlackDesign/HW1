@@ -1,11 +1,12 @@
-Function Step(direction){ 
-	If (getColor != "red") {
-		direction
-	Else{
-		Right
-		Right
-Step(Down)
-Step(Up)
-Step(Down)
-Step(Up)
-Step(Down)
+function Step(direction){ 
+	while (getColor() != "red"){
+		direction()
+	}
+right();
+right();
+}
+Step(down);
+Step(up);
+Step(down);
+Step(up);
+Step(down);
